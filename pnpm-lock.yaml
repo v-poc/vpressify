@@ -8,8 +8,8 @@ importers:
       '@docsearch/css': ^3.3.3
       '@docsearch/react': ^3.3.3
       '@iconify/json': ^2.2.33
-      '@mdx-js/react': ^2.3.0
-      '@mdx-js/rollup': ^2.3.0
+      '@mdx-js/react': 2.1.1
+      '@mdx-js/rollup': 2.1.1
       '@rollup/pluginutils': ^5.0.2
       '@svgr/core': ^6.5.1
       '@tailwindcss/typography': ^0.5.9
@@ -93,8 +93,8 @@ importers:
       '@docsearch/css': 3.3.3
       '@docsearch/react': 3.3.3_4jk4sx5gsa4z6dpons6mwt4w6q
       '@iconify/json': 2.2.33
-      '@mdx-js/react': 2.3.0_react@18.2.0
-      '@mdx-js/rollup': 2.3.0_rollup@3.19.1
+      '@mdx-js/react': 2.1.1_react@18.2.0
+      '@mdx-js/rollup': 2.1.1_rollup@3.19.1
       '@rollup/pluginutils': 5.0.2_rollup@3.19.1
       '@svgr/core': 6.5.1
       '@tailwindcss/typography': 0.5.9_tailwindcss@3.2.7
@@ -1317,8 +1317,8 @@ packages:
       - supports-color
     dev: false
 
-  /@mdx-js/react/2.3.0_react@18.2.0:
-    resolution: {integrity: sha512-zQH//gdOmuu7nt2oJR29vFhDv88oGPmVw6BggmrHeMI+xgEkp1B2dX9/bMBSYtK0dyLX/aOmesKS09g222K1/g==}
+  /@mdx-js/react/2.1.1_react@18.2.0:
+    resolution: {integrity: sha512-7zlZDf5xmWH8I0kFE4DG91COOkxjaW9DX5f1HWztZpFcVua2gJgMYfIkFaDpO/DH/tWi6Mz+OheW4194r15igg==}
     peerDependencies:
       react: '>=16'
     dependencies:
@@ -1327,13 +1327,13 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@mdx-js/rollup/2.3.0_rollup@3.19.1:
-    resolution: {integrity: sha512-wLvRfJS/M4UmdqTd+WoaySEE7q4BIejYf1xAHXYvtT1du/1Tl/z2450Gg2+Hu7fh05KwRRiehiTP9Yc/Dtn0fA==}
+  /@mdx-js/rollup/2.1.1_rollup@3.19.1:
+    resolution: {integrity: sha512-oOWCEpm91ewLeywxeyNmOeaORCosLAQ6O0t/4yvou33z64F14lCx3rIJUZb7K+ZIEp03q46t5mTj37ybBmI1sw==}
     peerDependencies:
       rollup: '>=2'
     dependencies:
       '@mdx-js/mdx': 2.3.0
-      '@rollup/pluginutils': 5.0.2_rollup@3.19.1
+      '@rollup/pluginutils': 4.2.1
       rollup: 3.19.1
       source-map: 0.7.4
       vfile: 5.3.7
@@ -1389,6 +1389,14 @@ packages:
 
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
+    dev: false
+
+  /@rollup/pluginutils/4.2.1:
+    resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
+    engines: {node: '>= 8.0.0'}
+    dependencies:
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
     dev: false
 
   /@rollup/pluginutils/5.0.2_rollup@3.19.1:
