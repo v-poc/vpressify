@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "outDir": "../../dist/theme",
+    "types": ["vite/client", "../client/shim"],
+    "baseUrl": ".",
+    "paths": {
+      "vpressify/client": ["../client/index.ts"]
+    }
+  }
+}
