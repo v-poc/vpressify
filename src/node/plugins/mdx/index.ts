@@ -48,9 +48,13 @@ function mdxRefresh({
       );
     },
     async transform(code, id, opts) {
-      if (filter(id) && /\.mdx?$/.test(id) && viteReactPlugin?.transform) {
+      if (
+        filter(id) &&
+        /\.mdx?$/.test(id) && // @ts-ignore
+        viteReactPlugin?.handler?.transform
+      ) {
         // @ts-ignore use vite react plugin to inject react refresh code into markdown
-        const result = await viteReactPlugin.transform?.handler.call(
+        const result = await viteReactPlugin?.handler?.transform.call(
           this,
           code,
           id + "?.jsx",
