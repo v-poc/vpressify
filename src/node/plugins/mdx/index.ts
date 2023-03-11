@@ -143,6 +143,7 @@ export function createMdxPlugin(mdxOptions: MdxOptions = {}): Plugin[] {
   // const tsInfoFileToModuleIdMap = new Map<string, string>();
 
   return [
+    // @ts-ignore
     mdx(mdxOptions),
     mdxRefresh(mdxOptions),
     mdxDemo(mdxOptions),
