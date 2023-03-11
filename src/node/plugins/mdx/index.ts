@@ -49,8 +49,8 @@ function mdxRefresh({
     },
     async transform(code, id, opts) {
       if (filter(id) && /\.mdx?$/.test(id) && viteReactPlugin?.transform) {
-        // use vite react plugin to inject react refresh code into markdown
-        const result = await viteReactPlugin.transform.call(
+        // @ts-ignore use vite react plugin to inject react refresh code into markdown
+        const result = await viteReactPlugin.transform?.handler.call(
           this,
           code,
           id + "?.jsx",
@@ -139,7 +139,8 @@ export function createMdxPlugin(mdxOptions: MdxOptions = {}): Plugin[] {
   // const tsInfoFileToModuleIdMap = new Map<string, string>();
 
   return [
-    mdx(mdxOptions),
+    // @ts-ignore
+    mdx(mdxOptions)?.handler,
     mdxRefresh(mdxOptions),
     mdxDemo(mdxOptions),
     mdxCodeDemo(mdxOptions),
