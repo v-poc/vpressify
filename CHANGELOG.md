@@ -2,6 +2,6 @@
 
 ### Features
 
-- upgrade to vite@4.x
+- chore(deps): update dependencies
 
 > vpressify contributors maintain it to continue pressify.
