@@ -1,8 +1,9 @@
-## 1.0.7 (2023-03-11)
+## 1.0.8 (2023-03-11)
 
 ### Features
 
-- upgrade to vite@4.1.4 and @vitejs/plugin-react@3.1.0
+- chore(deps): upgrade to vite@4.1.4 and @vitejs/plugin-react@3.1.0
+- chore(deps): update dependencies
 
 ## 1.0.3 (2023-03-10)
 
