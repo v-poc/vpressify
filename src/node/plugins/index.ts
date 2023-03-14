@@ -7,7 +7,7 @@ import {
   UserConfig as ViteConfig,
   searchForWorkspaceRoot,
 } from "vite";
-import react from "@vitejs/plugin-react";
+import react from "@vitejs/plugin-react-swc";
 import icons from "unplugin-icons/vite";
 import { conventionalEntries as entries } from "vite-plugin-conventional-entries";
 import { conventionalRoutes as routes } from "vite-plugin-conventional-routes";
