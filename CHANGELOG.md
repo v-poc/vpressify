@@ -1,9 +1,3 @@
-## 1.0.9 (2023-03-13)
-
-### Features
-
-- chore(deps): upgrade to @vitejs/plugin-react-swc@3.2.0
-
 ## 1.0.8 (2023-03-11)
 
 ### Features
@@ -17,4 +11,4 @@
 
 - chore(deps): update dependencies
 
-> `vpressify` contributors maintain it to continue `pressify`.
+> vpressify contributors maintain it to continue pressify.

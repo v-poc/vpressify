@@ -1,27 +1,9 @@
-import { UserConfig as ViteConfig } from "vite";
-// import { Options as ReactOptions } from "@vitejs/plugin-react-swc";
-import { Options as IconsOptions } from "unplugin-icons";
-import { Options as RollupMdxOptions } from "@mdx-js/rollup";
-import { UserPages, PagesConfig } from "vite-plugin-conventional-routes";
-import { Theme } from "shiki";
-
-type ReactOptions = {
-  /**
-   * Control where the JSX factory is imported from.
-   * @default "react"
-   */
-  jsxImportSource?: string;
-  /**
-   * Enable TypeScript decorators. Requires experimentalDecorators in tsconfig.
-   * @default false
-   */
-  tsDecorators?: boolean;
-  /**
-   * Use SWC plugins. Enable SWC at build time.
-   * @default undefined
-   */
-  plugins?: [string, Record<string, any>][];
-};
+import { UserConfig as ViteConfig } from 'vite';
+import { Options as ReactOptions } from '@vitejs/plugin-react';
+import { Options as IconsOptions } from 'unplugin-icons';
+import { Options as RollupMdxOptions } from '@mdx-js/rollup';
+import { UserPages, PagesConfig } from 'vite-plugin-conventional-routes';
+import { Theme } from 'shiki';
 
 export interface Page {
   basePath: string;
@@ -51,7 +33,7 @@ export interface MdxOptions extends RollupMdxOptions {
 export interface TailwindOptions {
   [key: string]: any;
   content?: string[];
-  darkMode?: "media" | "class";
+  darkMode?: 'media' | 'class';
   theme?: {
     extend?: Record<string, any>;
   };
@@ -86,7 +68,7 @@ export interface UserConfig<ThemeConfig = any> {
    */
   vite?: ViteConfig;
   /**
-   * Options to pass on to `@vitejs/plugin-react-swc`
+   * Options to pass on to `@vitejs/plugin-react`
    */
   react?: ReactOptions;
   /**
