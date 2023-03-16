@@ -1,3 +1,9 @@
+## 1.0.10 (2023-03-16)
+
+### Features
+
+- chore(deps): upgrade to vite@4.2.0
+
 ## 1.0.8 (2023-03-11)
 
 ### Features
