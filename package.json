@@ -1,6 +1,6 @@
 {
   "name": "vpressify",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Vite and React powered SSG",
   "keywords": [
     "vite",

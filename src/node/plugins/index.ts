@@ -151,7 +151,7 @@ export function createVpressifyPlugin(
             "@mdx-js/react",
             "nprogress",
             // default theme deps
-            "@docsearch/css",
+            // "@docsearch/css",
             "@docsearch/react",
             "@docsearch/react/modal",
             "lodash-es",
