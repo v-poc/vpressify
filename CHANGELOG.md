@@ -1,8 +1,8 @@
-## 1.0.15 (2023-04-20)
+## 1.0.16 (2023-04-21)
 
 ### Features
 
-- chore(deps): upgrade to vite@4.3.0
+- chore(deps): upgrade to vite@4.3.1
 
 ## 1.0.14 (2023-03-20)
 
