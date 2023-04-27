@@ -12,6 +12,7 @@ importers:
       '@mdx-js/rollup': ^2.3.0
       '@rollup/pluginutils': ^5.0.2
       '@svgr/core': ^7.0.0
+      '@svgr/plugin-jsx': ^7.0.0
       '@tailwindcss/typography': ^0.5.9
       '@types/compression': ^1.7.2
       '@types/fs-extra': ^11.0.1
@@ -97,6 +98,7 @@ importers:
       '@mdx-js/rollup': 2.3.0_rollup@3.21.0
       '@rollup/pluginutils': 5.0.2_rollup@3.21.0
       '@svgr/core': 7.0.0
+      '@svgr/plugin-jsx': 7.0.0
       '@tailwindcss/typography': 0.5.9_tailwindcss@3.3.2
       '@vitejs/plugin-react': 4.0.0_vite@4.3.3
       acorn: 8.8.2
@@ -1366,6 +1368,26 @@ packages:
       '@svgr/babel-preset': 7.0.0_@babel+core@7.21.4
       camelcase: 6.3.0
       cosmiconfig: 8.1.3
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /@svgr/hast-util-to-babel-ast/7.0.0:
+    resolution: {integrity: sha512-42Ej9sDDEmsJKjrfQ1PHmiDiHagh/u9AHO9QWbeNx4KmD9yS5d1XHmXUNINfUcykAU+4431Cn+k6Vn5mWBYimQ==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@babel/types': 7.21.4
+      entities: 4.5.0
+    dev: false
+
+  /@svgr/plugin-jsx/7.0.0:
+    resolution: {integrity: sha512-SWlTpPQmBUtLKxXWgpv8syzqIU8XgFRvyhfkam2So8b3BE0OS0HPe5UfmlJ2KIC+a7dpuuYovPR2WAQuSyMoPw==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@babel/core': 7.21.4
+      '@svgr/babel-preset': 7.0.0_@babel+core@7.21.4
+      '@svgr/hast-util-to-babel-ast': 7.0.0
+      svg-parser: 2.0.4
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -5550,6 +5572,10 @@ packages:
   /supports-preserve-symlinks-flag/1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  /svg-parser/2.0.4:
+    resolution: {integrity: sha512-e4hG1hRwoOdRb37cIMSgzNsxyzKfayW6VOflrwvR+/bzrkyxY/31WkbgnQpgtrNp1SdpJvpUAGTa/ZoiPNDuRQ==}
+    dev: false
 
   /tailwindcss/3.3.2:
     resolution: {integrity: sha512-9jPkMiIBXvPc2KywkraqsUfbfj+dHDb+JPWtSJa9MLFdrPyazI7q6WX2sUrm7R9eVR7qqv3Pas7EvQFzxKnI6w==}
