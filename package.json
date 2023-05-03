@@ -1,6 +1,6 @@
 {
   "name": "vpressify",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Vite and React powered SSG",
   "keywords": [
     "vite",
@@ -22,7 +22,7 @@
     "node": "^14.18.0 || >=16.0.0",
     "pnpm": ">= 7"
   },
-  "packageManager": "pnpm@7.30.0",
+  "packageManager": "pnpm@8.4.0",
   "type": "module",
   "files": [
     "bin",
@@ -55,9 +55,9 @@
     "build:theme": "node scripts/copyTheme.js"
   },
   "dependencies": {
-    "@docsearch/css": "^3.3.3",
-    "@docsearch/react": "^3.3.3",
-    "@iconify/json": "^2.2.56",
+    "@docsearch/css": "^3.3.4",
+    "@docsearch/react": "^3.3.4",
+    "@iconify/json": "^2.2.59",
     "@mdx-js/react": "^2.3.0",
     "@mdx-js/rollup": "^2.3.0",
     "@rollup/pluginutils": "^5.0.2",
@@ -104,7 +104,7 @@
     "remark-gfm": "^3.0.1",
     "remark-mdx-code-meta": "^2.0.0",
     "remark-mdx-frontmatter": "1.1.1",
-    "rollup": "^3.21.0",
+    "rollup": "^3.21.3",
     "shiki": "0.10.1",
     "sirv": "^2.0.3",
     "tailwindcss": "^3.3.2",
@@ -114,7 +114,7 @@
     "upath": "^2.0.1",
     "update-notifier": "^6.0.2",
     "valtio": "^1.10.4",
-    "vite": "^4.3.3",
+    "vite": "^4.3.4",
     "vite-plugin-conventional-entries": "^0.1.10-beta.8",
     "vite-plugin-conventional-routes": "^0.1.12-beta.9"
   },
