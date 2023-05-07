@@ -1,6 +1,6 @@
 {
   "name": "vpressify",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "Vite and React powered SSG",
   "keywords": [
     "vite",
@@ -104,7 +104,7 @@
     "remark-gfm": "^3.0.1",
     "remark-mdx-code-meta": "^2.0.0",
     "remark-mdx-frontmatter": "1.1.1",
-    "rollup": "^3.21.3",
+    "rollup": "^3.21.5",
     "shiki": "0.10.1",
     "sirv": "^2.0.3",
     "tailwindcss": "^3.3.2",
@@ -113,8 +113,8 @@
     "unplugin-icons": "0.15.3",
     "upath": "^2.0.1",
     "update-notifier": "^6.0.2",
-    "valtio": "^1.10.4",
-    "vite": "^4.3.4",
+    "valtio": "^1.10.5",
+    "vite": "^4.3.5",
     "vite-plugin-conventional-entries": "^0.1.10-beta.8",
     "vite-plugin-conventional-routes": "^0.1.12-beta.9"
   },
