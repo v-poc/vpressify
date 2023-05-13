@@ -31,3 +31,7 @@ html.dark .py-code-light {
 html:not(.dark) .py-code-dark {
   display: none;
 }
+
+.gradient-banner {
+  background: linear-gradient(90deg,rgba(66,184,131,1) 0%,rgba(39,179,137,1) 19%,rgba(100,126,255,1) 100%);
+}

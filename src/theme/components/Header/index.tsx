@@ -15,7 +15,7 @@ function Banner() {
   }
 
   return (
-    <div className="h-[var(--banner-height)] px-6 bg-c-brand leading-[var(--banner-height)] text-center text-white text-xs font-semibold">
+    <div className="h-[var(--banner-height)] px-6 bg-c-brand leading-[var(--banner-height)] text-center text-white text-xs font-semibold gradient-banner">
       {finalBanner.map((x, index) =>
         Array.isArray(x)
           ? React.createElement(x[0], { ...x[1], key: index }, x[2])

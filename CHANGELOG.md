@@ -1,3 +1,9 @@
+## 1.0.22 (2023-05-12)
+
+### Features
+
+- chore(style): update banner
+
 ## 1.0.21 (2023-05-04)
 
 ### Features
