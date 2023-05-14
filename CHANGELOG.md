@@ -1,3 +1,9 @@
+## 1.0.23 (2023-05-13)
+
+### Features
+
+- chore(deps): update dependencies
+
 ## 1.0.22 (2023-05-12)
 
 ### Features
