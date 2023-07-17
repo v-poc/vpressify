@@ -48,10 +48,14 @@ export const Search: React.FC<{ iconOnly?: boolean }> = ({ iconOnly }) => {
 
   const transformItems = useCallback((items: any[]) => {
     return items.map((item) => {
-      const { pathname, hash } = new URL(item.url);
+      // const { pathname, hash } = new URL(item.url);
+      const pos = item.url.indexOf("https");
+      const tmpUrl = item.url.slice(pos);
+      const sUrl = tmpUrl.replace("https:/", "https://");
       return {
         ...item,
-        url: `${removeTailSlash(import.meta.env.BASE_URL)}${pathname}${hash}`,
+        // url: `${removeTailSlash(import.meta.env.BASE_URL)}${pathname}${hash}`,
+        url: sUrl,
       };
     });
   }, []);
@@ -133,7 +137,7 @@ export const Search: React.FC<{ iconOnly?: boolean }> = ({ iconOnly }) => {
         createPortal(
           <DocSearchModal
             initialScrollY={window.scrollY}
-            // transformItems={transformItems}
+            transformItems={transformItems}
             hitComponent={Hit}
             navigator={navigator}
             onClose={onClose}
