@@ -133,7 +133,7 @@ export const Search: React.FC<{ iconOnly?: boolean }> = ({ iconOnly }) => {
         createPortal(
           <DocSearchModal
             initialScrollY={window.scrollY}
-            transformItems={transformItems}
+            // transformItems={transformItems}
             hitComponent={Hit}
             navigator={navigator}
             onClose={onClose}
