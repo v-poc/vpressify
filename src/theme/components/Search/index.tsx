@@ -48,12 +48,11 @@ export const Search: React.FC<{ iconOnly?: boolean }> = ({ iconOnly }) => {
 
   const transformItems = useCallback((items: any[]) => {
     return items.map((item) => {
-      // const { pathname, hash } = new URL(item.url);
-      const { hash } = new URL(item.url);
+      const { pathname, hash } = new URL(item.url);
       return {
         ...item,
         // url: `${removeTailSlash(import.meta.env.BASE_URL)}${pathname}${hash}`,
-        url: hash,
+        url: `${pathname}${hash}`.replace("/rui-next", ""),
       };
     });
   }, []);
