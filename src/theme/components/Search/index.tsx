@@ -49,13 +49,11 @@ export const Search: React.FC<{ iconOnly?: boolean }> = ({ iconOnly }) => {
   const transformItems = useCallback((items: any[]) => {
     return items.map((item) => {
       // const { pathname, hash } = new URL(item.url);
-      const pos = item.url.indexOf("https");
-      const tmpUrl = item.url.slice(pos);
-      const sUrl = tmpUrl.replace("https:/", "https://");
+      const { hash } = new URL(item.url);
       return {
         ...item,
         // url: `${removeTailSlash(import.meta.env.BASE_URL)}${pathname}${hash}`,
-        url: sUrl,
+        url: hash,
       };
     });
   }, []);
