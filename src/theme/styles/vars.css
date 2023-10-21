@@ -7,24 +7,24 @@
 
   /* background colors */
   --c-bg-0: #ffffff;
-  --c-bg-1: theme('colors.gray.100');
-  --c-bg-2: theme('colors.gray.200');
+  --c-bg-1: theme("colors.gray.100");
+  --c-bg-2: theme("colors.gray.200");
 
   /* text colors */
-  --c-text-0: theme('colors.gray.800');
-  --c-text-1: theme('colors.gray.700');
-  --c-text-2: theme('colors.gray.500');
-  --c-text-3: theme('colors.gray.400');
+  --c-text-0: theme("colors.gray.800");
+  --c-text-1: theme("colors.gray.700");
+  --c-text-2: theme("colors.gray.500");
+  --c-text-3: theme("colors.gray.400");
 
   /* border colors */
-  --c-border-0: theme('colors.gray.100');
-  --c-border-1: theme('colors.gray.200');
-  --c-border-2: theme('colors.gray.300');
+  --c-border-0: theme("colors.gray.100");
+  --c-border-1: theme("colors.gray.200");
+  --c-border-2: theme("colors.gray.300");
 
-  --c-callout-tip: theme('colors.emerald.600');
-  --c-callout-info: theme('colors.sky.600');
-  --c-callout-warning: theme('colors.amber.600');
-  --c-callout-danger: theme('colors.red.600');
+  --c-callout-tip: theme("colors.emerald.600");
+  --c-callout-info: theme("colors.sky.600");
+  --c-callout-warning: theme("colors.amber.600");
+  --c-callout-danger: theme("colors.red.600");
 
   /* size */
   --header-height: 56px;
@@ -38,7 +38,7 @@
   --z-index-header: 20;
   --z-index-nav-screen: 20;
   --z-index-sidebar-mask: 30;
-  --z-index-sidebar: 40;
+  --z-index-sidebar: 15;
   --z-index-nprogress: 1000;
 }
 
@@ -69,15 +69,15 @@ html.dark {
   --c-bg-2: #343a43;
 
   /* text colors */
-  --c-text-0: theme('colors.gray.200');
-  --c-text-1: theme('colors.gray.300');
-  --c-text-2: theme('colors.gray.400');
-  --c-text-3: theme('colors.gray.500');
+  --c-text-0: theme("colors.gray.200");
+  --c-text-1: theme("colors.gray.300");
+  --c-text-2: theme("colors.gray.400");
+  --c-text-3: theme("colors.gray.500");
 
   /* border colors */
-  --c-border-0: theme('colors.gray.800');
-  --c-border-1: theme('colors.gray.700');
-  --c-border-2: theme('colors.gray.600');
+  --c-border-0: theme("colors.gray.800");
+  --c-border-1: theme("colors.gray.700");
+  --c-border-2: theme("colors.gray.600");
 }
 
 html.dark .DocSearch {

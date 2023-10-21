@@ -1,3 +1,10 @@
+## 1.0.41 (2023-10-21)
+
+### Features
+
+- chore(deps): upgrade to vite@5.0.0-beta.11
+- chore(style): update z-index-sidebar
+
 ## 1.0.40 (2023-10-18)
 
 ### Features
