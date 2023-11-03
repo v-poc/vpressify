@@ -1,3 +1,9 @@
+## 1.0.42 (2023-11-03)
+
+### Features
+
+- chore(deps): update dependencies
+
 ## 1.0.41 (2023-10-21)
 
 ### Features
