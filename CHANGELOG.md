@@ -1,7 +1,8 @@
-## 1.0.42 (2023-11-03)
+## 1.0.43 (2023-11-16)
 
 ### Features
 
+- chore(deps): upgrade to vite 5.0
 - chore(deps): update dependencies
 
 ## 1.0.41 (2023-10-21)
